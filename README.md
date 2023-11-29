@@ -14,16 +14,16 @@ How to use **************************************************
 
 Command line usage:
 
-	MDD.py [-w value] [-j value] [-n value] log_file_path
+	MDD.py [-w value] [-j value] [-n value] [-f value] 
 	options:
     		-w window size, integer, default value is 200
     		-j jump distance, integer, default value is 3
     		-n change number, integer, default value is 3
+      		-f log, char, default value is cm5k.mxml
 
 Examples:
 
-	MDD.py -w 200 -j 3 -n 3 cp5k.mxml
- 	MDD.py cp5k.mxml
+	MDD.py -w 200 -j 3 -n 3 -f cm5k.mxml
 
  	
 Note: 
